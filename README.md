@@ -1,4 +1,4 @@
 gitconfig
 =========
 
-config for git
+Common git configurations
