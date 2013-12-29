@@ -1,0 +1,4 @@
+gitconfig
+=========
+
+config for git
