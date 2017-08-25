@@ -1,16 +1,26 @@
 [core]
 	editor = vim
 	autocrlf = false
+	whitespace = cr-at-eol
+
 [color]
 	ui = true
 	interactive = auto
+	diff = auto
+	status = auto
+	branch = auto
+
 [alias]
 	logg = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	loggg = log --stat -p
 	diff1 = diff HEAD^!
+
 [pull]
 	rebase = true
+
 [merge]
 	tool = vimdiff
+
 [push]
 	default = simple
+
